@@ -1,0 +1,9 @@
+$schema: "1.0"
+name: "devbox-customization"
+tasks:
+  - name: choco
+    parameters:
+      package: vscode
+  - name: choco
+    parameters:
+      package: nodejs
